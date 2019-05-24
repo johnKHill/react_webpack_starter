@@ -1,0 +1,8 @@
+$primary: teal; // over-writing bootstrap above the boostrap import
+$danger: blue;
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: $danger;
+}
